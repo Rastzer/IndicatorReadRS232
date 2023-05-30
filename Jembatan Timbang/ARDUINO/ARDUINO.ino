@@ -1,6 +1,6 @@
 #include <SoftwareSerial.h>
 
-SoftwareSerial mySerial(10, 11); // RX, TX
+SoftwareSerial mySerial(6, 7); // RX, TX
 
 String inString, dataStr[2];
 bool comComp = false;
